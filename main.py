@@ -365,7 +365,7 @@ async def switch_mode(_, message: Message, lang):
 
 
 @app.on_message(
-    filters.command(["lang""], config.PREFIXES)
+    filters.command(["lang"], config.PREFIXES)
     & ~filters.private
     & ~filters.edited
 )
