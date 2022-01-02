@@ -63,8 +63,8 @@ Note: `First Fork The Repo Then Click On Deploy To Heroku Button!`
 ## ☁️ <a name="self_host"></a>Self Host
 
 ```bash
-$ git clone https://github.com/g-r-e-e-n/MusicPlayer
-$ cd MusicPlayer
+$ git clone https://github.com/g-r-e-e-n/Music_player
+$ cd Music_player
 $ cp sample.env .env
 < edit .env with your own values >
 $ sudo docker build . -t musicplayer
